@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #282c34;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #3a3f47;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.result-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#password {
+  flex: 1;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+#copy {
+  padding: 10px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.settings {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.settings label {
+  display: block;
+  margin: 10px 0;
+}
+
+#generate {
+  background: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#generate:hover {
+  background: #007bb5;
+}
